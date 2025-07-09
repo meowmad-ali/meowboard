@@ -59,7 +59,7 @@ You’ll need:
 - A soldering iron that doesn’t suck  
 - A decent batch of switches (any MX-compatible ones will do)  
 - Diodes, preferably pre-bent unless you like pain  
-- Your choice of controller (Elite-C recommended)  
+- Your choice of controller RP2040 
 - A rotary encoder or three if you're feeling fancy  
 - PCB ordered from JLC or similar  
 - Patience and snacks
