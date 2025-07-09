@@ -1,77 +1,99 @@
 # MeowBoard
 
-MeowBoard is a full-sized custom mechanical keyboard designed for those who believe functionality and personality should go hand-in-hand. It's unapologetically bold, unreasonably aesthetic, and entirely open-source. With a sleek ortholinear grid layout and a cat-ear-style diode wave cresting the top, this board isn’t just about typing it’s about making a statement.
+okay so this is MeowBoard  
+a full-size ortholinear keyboard with some serious personality  
+it’s got a funky diode wave pattern up top, a ton of keys, and space for encoders  
+we basically went from zero to full PCB mayhem because a regular keyboard just wasn’t hitting anymore  
 
-Built for the hands of devs, designers, tinkerers, and keyboard freaks who refuse to settle for boring boards, MeowBoard invites you to build, break, and rebuild it your way. Whether you're soldering your first switch or modding your 40th layout, this board is here for the chaos.
-
----
-
-## The Vision
-
-This board wasn’t born from a tutorial. It was born out of that deep, late-night urge to make something weird and cool that just *works*. It started with the idea of "What if a keyboard looked like it had cat ears and was still ergonomic?" and evolved into a full-featured, encoder-ready, QMK-compatible monster of a project. The name "MeowBoard" came later it kinda named itself.
-
-We wanted to build something that felt like it belonged on the desk of a digital wizard  a board that could run macros, control volume, do RGB flexing, and still slap in a gaming sesh or hackathon.
+MeowBoard is made for the kind of people who actually enjoy soldering till 3am and tweaking layouts for fun  
+you want knobs, clean matrix routing, and a cat logo for no reason? we got it  
+this board isn’t trying to be minimal  
+it’s just trying to be cool
 
 ---
 
-## What Makes It Cool
+## how it started
 
-Instead of throwing a basic layout at you, MeowBoard brings some real sauce:
+was messing around with layout ideas and thought  
+what if the keyboard had vibes  
+like actual vibes  
+started sketching some cat-themed stuff  
+then just dumped it all into KiCad  
+made a clean matrix  
+threw in some encoder footprints  
+and gave it a top edge that looks like it’s meowing
 
-This PCB was routed with both aesthetic and practicality in mind. The top row has a repeating wave-like array of diode pads that adds a unique vibe to your builds and lets you flex that PCB even when it's not in a case. It's designed to support MX-compatible switches, per-key LED mods, and has enough encoder footprints to run volume, scroll, and even macro layers without breaking a sweat.
-
-Oh, and if you're tired of the default spacebar? Go split. Wanna add OLED? Do it. Want to slap in a knob that controls Spotify? Yes chef.
-
----
-
-## Features
-
-MeowBoard is not just a keyboard, it’s a canvas for experimentation. Here's the highlight reel:
-
-The board supports a full ortholinear layout with a satisfying uniform grid feel. It's got footprints for three rotary encoders up top, ready for scroll-wheel energy, volume control, or creative macros. The MCU section is built around Elite-C or Pro Micro, so USB-C is fully supported if you’re going for a modern build. The PCB has full QMK support, and we’re adding VIA support soon.
-
-Each switch is individually routed and has through-holes for easy troubleshooting. Routing was done with both symmetry and signal integrity in mind, which means you get both aesthetic PCB porn and actual reliability.
-
-No underglow here   we're keeping it clean, focused, and ready for a case of your choosing.
+from there it spiraled into what you see here  
+one full-size chaotic energy ortholinear board with layers for days
 
 ---
 
-## Gallery and PCB Preview
+## what’s actually on this thing
+
+this thing has enough key real estate to launch a space shuttle  
+it’s using a clean 18x6 ortholinear layout  
+MX switch support because yes  
+supports both Pro Micro and Elite-C so you can flex with USB-C  
+three encoder spots up top because one is boring  
+all the rows and columns are routed cleanly, trust me it looks good in the gerbers  
+and yeah, there’s a little sukhoi-style logo because why not
+
+no underglow  
+no RGB distractions  
+just raw switch power
+
+---
+
+## pics or it didn’t happen
 
 | Image | Description |
 |-------|-------------|
-| <img width="803" alt="meowboardpcb" src="https://github.com/user-attachments/assets/73dd79f8-0eee-4a8e-9af0-0c7ebd444028" /> | Top-view of the PCB layout showcasing the unique diode wave, matrix structure, and encoder spots |
+| ![meowboard-pcb](https://github.com/user-attachments/assets/bfb35075-b8e0-459f-87e9-5e74d0ca21c3) | PCB view in KiCad with the diode wave and encoder spots up top |
 
 | Image | Description |
 |-------|-------------|
-| <img width="415" alt="schematic" src="https://github.com/user-attachments/assets/9abca0f4-de7f-4c87-92ef-ef1d851db39f" />  | Schematic view showing key switch matrix and controller pin mapping |
+| _insert schematic screenshot here_ | full matrix wiring with all rows and cols labeled, everything flows nice and tidy |
 
 | Image | Description |
 |-------|-------------|
-| _Insert KiCad 3D render here_ | 3D render of the board from KiCad   for a vibe check before manufacturing |
+| _insert 3D view screenshot here_ | this is from the KiCad 3D viewer, it looks clean with switches in place |
 
 ---
 
-## How To Build
+## what’s in the repo
 
-You’ll need:
+- meowboard.kicad_pcb – the full board file  
+- meowboard.sch – schematic  
+- firmware folder with QMK stuff and default layout  
+- journal.md because yeah we tracked the build  
+- meowboard.json for VIA  
+- optional 3D printable case and DXF for the plate  
 
-- A soldering iron that doesn’t suck  
-- A decent batch of switches (any MX-compatible ones will do)  
-- Diodes, preferably pre-bent unless you like pain  
-- Your choice of controller RP2040 
-- A rotary encoder or three if you're feeling fancy  
-- PCB ordered from JLC or similar  
-- Patience and snacks
-
-Flash the firmware using QMK Toolbox, test using VIA, and build your layout layer-by-layer until it feels right.
+everything here is editable  
+go nuts  
 
 ---
 
-## Licensing
+## wanna build one
 
-MeowBoard is open-source and lives under the MIT License. Build it, remix it, clone it, but please don’t try to make a drop-shipping business out of it. That’s cringe. Give credit, and tag if you post your build   we love to see it.
+you’ll need a soldering iron  
+around 100 switches  
+diodes  
+a microcontroller  
+a brain  
+and probably some snacks because this takes time  
+
+flash the firmware with QMK Toolbox  
+use VIA to remap  
+stare at it for a bit  
+then start flexing
 
 ---
 
-built with caffeine, chaos, and cats
+## license thingy
+
+this project is open source  
+MIT license  
+do what you want but don’t gatekeep  
+tag me if you make a build  
+meowboard was made with chaos and caffeine so pls respect the drip
