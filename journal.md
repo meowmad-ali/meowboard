@@ -128,7 +128,7 @@ also changed the color like 3 times just for vibes
 
 | Image | Description |
 |-------|-------------|
-|       | 3D viewer render  |
+|    ![image](https://github.com/user-attachments/assets/5dcfec1f-b824-4958-bd28-0b57ebd84642) | 3D viewer render  |
 
 **hours spent: 1**
 
