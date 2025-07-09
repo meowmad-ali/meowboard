@@ -48,11 +48,11 @@ just raw switch power
 
 | Image | Description |
 |-------|-------------|
-| ![meowboard-pcb](https://github.com/user-attachments/assets/bfb35075-b8e0-459f-87e9-5e74d0ca21c3) | PCB view in KiCad with the diode wave and encoder spots up top |
+| <img width="803" alt="meowboardpcb" src="https://github.com/user-attachments/assets/d2f3d493-be2e-4af8-a04c-fd0f8338b3a4" /> | PCB view in KiCad with the diode wave and encoder spots up top |
 
 | Image | Description |
 |-------|-------------|
-| _insert schematic screenshot here_ | full matrix wiring with all rows and cols labeled, everything flows nice and tidy |
+| <img width="415" alt="schematic" src="https://github.com/user-attachments/assets/de958ae8-edd7-4e46-b8e3-3fec8c321b89" />  | full matrix wiring with all rows and cols labeled, everything flows nice and tidy |
 
 | Image | Description |
 |-------|-------------|
@@ -60,21 +60,7 @@ just raw switch power
 
 ---
 
-## what’s in the repo
-
-- meowboard.kicad_pcb – the full board file  
-- meowboard.sch – schematic  
-- firmware folder with QMK stuff and default layout  
-- journal.md because yeah we tracked the build  
-- meowboard.json for VIA  
-- optional 3D printable case and DXF for the plate  
-
-everything here is editable  
-go nuts  
-
----
-
-## wanna build one
+## wanna build one ?
 
 you’ll need a soldering iron  
 around 100 switches  
