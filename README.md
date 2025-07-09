@@ -10,6 +10,8 @@ you want knobs, clean matrix routing, and a cat logo for no reason? we got it
 this board isn’t trying to be minimal  
 it’s just trying to be cool
 
+![image](https://github.com/user-attachments/assets/7c30c675-99b5-4631-a9e3-62eb49bd32fc)
+
 ---
 
 ## how it started
@@ -78,7 +80,7 @@ just raw switch power
 
 | Image | Description |
 |-------|-------------|
-| _insert 3D view screenshot here_ | this is from the KiCad 3D viewer, it looks clean with switches in place |
+| ![image](https://github.com/user-attachments/assets/53f8f981-f2e7-4d86-a190-e681d76d6a4d) | this is from the KiCad 3D viewer, it looks clean with switches in place |
 
 ---
 
