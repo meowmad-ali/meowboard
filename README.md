@@ -43,12 +43,11 @@ one full-size chaotic energy ortholinear board with layers for days
 | PCB                  | Custom PCB for MeowBoard                 | 1   | 15.00            | 15.00             |
 | Acrylic Case         | Laser-cut top and bottom                 | 1   | 12.00            | 12.00             |
 | TRRS Jack            | Used for split connections (optional)    | 1   | 1.00             | 1.00              |
-| USB-C Cable          | Cable to connect the board               | 1   | 3.00             | 3.00              |
 | Screws & Standoffs   | Mounting hardware                        | 1   | 2.00             | 2.00              |
 | Soldering Materials  | Wire, flux, solder (consumables)         | 1   | 5.00             | 5.00              |
 | Miscellaneous        | Labels, packaging, foam, extras          | 1   | 6.10             | 6.10              |
 
-**Total Estimated Cost:** ~$100.00
+**Total Estimated Cost:** ~$97.00
 
 ---
 
